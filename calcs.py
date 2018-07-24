@@ -78,8 +78,8 @@ def plotCalc():
 	ax.zaxis.set_major_formatter(FormatStrFormatter('%.03f'))
 
 	# Add a color bar which maps values to colors.
-	plt.xlabel('Counterparty IQ', fontsize=18)
-	plt.ylabel('Target IQ', fontsize=16)
+	plt.xlabel('Counterparty IQ')
+	plt.ylabel('Target IQ')
 	plt.title('Attainment probability planes for 1, 2, 3, 4, 5 kids')
 
 	fig.colorbar(surf, shrink=0.5, aspect=5)
@@ -119,8 +119,8 @@ def plotNumKids():
 	ax.zaxis.set_major_formatter(FormatStrFormatter('%.03f'))
 
 	# Add a color bar which maps values to colors.
-	plt.xlabel('Given Counterparty IQ', fontsize=18)
-	plt.ylabel('Child Count', fontsize=16)
+	plt.xlabel('Given Counterparty IQ')
+	plt.ylabel('Child Count')
 	plt.title('Attainment probability plane for IQ 145')
 
 	fig.colorbar(surf, shrink=0.5, aspect=5)
